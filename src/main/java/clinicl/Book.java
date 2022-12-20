@@ -2,20 +2,20 @@ package clinicl;
 
 import java.util.ArrayList;
 
-public class book {
+public class Book {
 	
 	
 	
-	static ArrayList<String> month=new ArrayList<String>();
-	static ArrayList<String> week=new ArrayList<String>();
-	static ArrayList<String> day=new ArrayList<String>();
-	static ArrayList<String> service=new ArrayList<String>();
-	static ArrayList<String> price=new ArrayList<String>();
+	static ArrayList<String> month=new ArrayList<>();
+	static ArrayList<String> week=new ArrayList<>();
+	static ArrayList<String> day=new ArrayList<>();
+	static ArrayList<String> service=new ArrayList<>();
+	static ArrayList<String> price=new ArrayList<>();
 
-	public book()
+	public Book()
 	{
 		
-		//ali
+		//Ail
 		month.add("January");
 		month.add("April");
 		week.add("week2");
@@ -27,7 +27,7 @@ public class book {
 		price.add("200");
 		price.add("300");
 		
-		 //ameer
+		 //Amber
 		     month.add("March");
 			month.add("April");
 			week.add("week1");
@@ -42,32 +42,32 @@ public class book {
 	}
 
 	public void setMonth(String month) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 
 	public void setWeek(String week) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
 	public void setDay(String day) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
 	public void setService(String service) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
 	public void setPrice(String price) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 
 	public Boolean thebook(String m,String w,String d) {
-		// TODO Auto-generated method stub
+		
 		for(int i=0;i<month.size();i++)
 		{
 			if(m.equals(month.get(i))&&w.equals(week.get(i))&&d.equals(day.get(i)))

@@ -2,8 +2,8 @@ package clinicf;
 
 import static org.junit.Assert.assertTrue;
 
-import clinicl.book;
-import clinicl.user;
+import clinicl.Book;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,12 +11,12 @@ import io.cucumber.java.en.When;
 public class billingsteps {
 	
 	Boolean t1,t;
-	user a;
-	book b;
+	User a;
+	Book b;
 	public billingsteps()
 	{
-		a=new user();
-		b=new book();
+		a=new User();
+		b=new Book();
 	}
 
 	@Given("that the patient is loged in")

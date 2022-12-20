@@ -2,18 +2,18 @@ package clinicf;
 
 import static org.junit.Assert.assertTrue;
 
-import clinicl.user;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class usersteps {
 	Boolean t1,t;
-	user u;
+	User u;
 	
 	public usersteps()
 	{
-		u=new user();
+		u=new User();
 	}
 
 	@Given("user selected to log in")

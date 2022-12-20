@@ -1,7 +1,7 @@
 package clinicf;
 
 import clinicl.Admin;
-import clinicl.user;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,11 +9,11 @@ import io.cucumber.java.en.When;
 public class deletesteps {
 	
 	Boolean t1,t;
-	user d;
+	User d;
 	Admin de;
 	public deletesteps()
 	{
-		d=new user();
+		d=new User();
 		de=new Admin();
 	}
 	

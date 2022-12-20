@@ -3,7 +3,7 @@ package clinicf;
 
 import static org.junit.Assert.assertTrue;
 
-import clinicl.user;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,10 +12,10 @@ public class searchsteps {
 	
 
 	Boolean t1,t;
-	user s;
+	User s;
 	public searchsteps()
 	{
-		s=new user();
+		s=new User();
 	}
 	
 

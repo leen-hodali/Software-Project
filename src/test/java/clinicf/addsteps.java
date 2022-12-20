@@ -3,7 +3,7 @@ package clinicf;
 import static org.junit.Assert.assertTrue;
 
 import clinicl.Admin;
-import clinicl.user;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -11,12 +11,12 @@ import io.cucumber.java.en.When;
 public class addsteps {
 	
 	boolean l, v, t,t1;
-	user ss;
+	User ss;
 	Admin as;
 	Admin a = new Admin();
 	public addsteps()
 	{
-		ss=new user();
+		ss=new User();
 		as=new Admin();
 	}
 	

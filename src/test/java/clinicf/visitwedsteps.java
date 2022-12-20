@@ -3,8 +3,8 @@ package clinicf;
 import static org.junit.Assert.assertTrue;
 
 import clinicl.Admin;
-import clinicl.book;
-import clinicl.user;
+import clinicl.Book;
+import clinicl.User;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -12,15 +12,15 @@ import io.cucumber.java.en.When;
 public class visitwedsteps {
 
 	Boolean t1,t,v,s,v1;
-	user u;
+	User u;
 	Admin a;
-	book b;
+	Book b;
 	
 	public visitwedsteps()
 	{
-		u=new user();
+		u=new User();
 		a=new Admin();
-		b=new book();
+		b=new Book();
 	}
 
 	@Given("that the patient {string} is loged in")

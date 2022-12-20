@@ -2,7 +2,7 @@ package clinicf;
 
 import static org.junit.Assert.assertTrue;
 
-import clinicl.book;
+import clinicl.Book;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,10 +10,10 @@ import io.cucumber.java.en.When;
 public class bookAp {
 	
 	Boolean t1,t;
-	book b;
+	Book b;
 	public bookAp()
 	{
-		b=new book();
+		b=new Book();
 	}
 	
 	

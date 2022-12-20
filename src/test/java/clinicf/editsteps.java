@@ -11,9 +11,9 @@ public class editsteps {
 	int index=-1;
 	public static int search(String phone) 
 	{
-		for(int i=0;i<user.phone.size();i++)
+		for(int i=0;i<User.getPhone().size();i++)
 		{
-			if(phone.equals(user.phone.get(i)))
+			if(phone.equals(User.getPhone().get(i)))
 				return i;
 		}
 		return -1;	
@@ -30,7 +30,7 @@ public class editsteps {
 	@When("admin change it to {string}")
 	public void adminChangeItTo(String string) {
 		
-    	user.phone.set(index, string);
+    	User.getPhone().set(index, string);
 	}
 
 

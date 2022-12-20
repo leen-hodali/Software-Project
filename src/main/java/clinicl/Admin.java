@@ -8,10 +8,10 @@ import java.util.ArrayList;
 
 public class Admin {
 
-	static public ArrayList<String> users=new ArrayList<String>();
-	static ArrayList<String> password=new ArrayList<String>();
-	static ArrayList<String> service=new ArrayList<String>();
-	static ArrayList<String> price=new ArrayList<String>();
+	static protected ArrayList<String> users=new ArrayList<>();
+	static ArrayList<String> password=new ArrayList<>();
+	static ArrayList<String> service=new ArrayList<>();
+	static ArrayList<String> price=new ArrayList<>();
 	private Boolean login;
 	
 	public Admin()
@@ -37,22 +37,22 @@ public class Admin {
 	
 	
 	public void setUsername(String username) {
-		
+		return;
 	
 	}
 
 	public void setPasword(String password) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
 	public void setService(String service) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
 	public void setPrice(String price) {
-		// TODO Auto-generated method stub
+		return;
 		
 	}
 	
@@ -65,7 +65,7 @@ public class Admin {
 	}
 
 	public Boolean login(String u,String p) {
-		// TODO Auto-generated method stub
+		
 		for(int i=0;i<users.size();i++)
 		{
 			if(u.equals(users.get(i))&&p.equals(password.get(i)))
@@ -83,7 +83,7 @@ public class Admin {
 
 
 	public boolean checkLogin(String u) {
-		// TODO Auto-generated method stub
+		
 		for(int i=0;i<users.size();i++)
 		{
 			if(u.equals(users.get(i)))
@@ -94,7 +94,7 @@ public class Admin {
 
 
 	public boolean addservice(String service2, String price2) {
-		// TODO Auto-generated method stub
+		
 		service.add(service2);
 		price.add(price2);
 		
@@ -106,7 +106,7 @@ public class Admin {
 
 	
 	public Boolean logout(String u) {
-		// TODO Auto-generated method stub
+		
 		for(int i=0;i<users.size();i++)
 		{
 			if(u.equals(users.get(i)))
