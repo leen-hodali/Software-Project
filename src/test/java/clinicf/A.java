@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 features = "testcases",
 monochrome=true,
 snippets=SnippetType.CAMELCASE,
-glue = {"c22"})
+glue = {"clinicf"})
 
 public class A{
 
