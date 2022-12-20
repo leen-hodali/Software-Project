@@ -2,5 +2,5 @@ projectKey=clinic:c22
 serverUrl=http://localhost:9000
 serverVersion=9.7.1.62043
 dashboardUrl=http://localhost:9000/dashboard?id=clinic%3Ac22
-ceTaskId=AYUw0AIGWnP0I2_SCcCz
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYUw0AIGWnP0I2_SCcCz
+ceTaskId=AYUxcC91WnP0I2_SCcC7
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYUxcC91WnP0I2_SCcC7

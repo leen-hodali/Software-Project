@@ -37,27 +37,10 @@ public class User {
 	}
 	
 	
-	public void setUsername(String username) {
-		
-		return;
-	}
+	
 	
 	
 
-	public void setPasword(String password) {
-		return;
-		
-	}
-
-	public void setId(String id2) {
-		return;
-		
-	}
-
-	public void setPhone(String phone2) {
-		
-		return;
-	}
 
 	public static Boolean login(String us,String pa) {
 		

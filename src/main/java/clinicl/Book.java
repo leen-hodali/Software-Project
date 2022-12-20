@@ -41,30 +41,7 @@ public class Book {
 
 	}
 
-	public void setMonth(String month) {
-		return;
-		
-	}
-
-	public void setWeek(String week) {
-		return;
-		
-	}
 	
-	public void setDay(String day) {
-		return;
-		
-	}
-	
-	public void setService(String service) {
-		return;
-		
-	}
-	
-	public void setPrice(String price) {
-		return;
-		
-	}
 
 	public Boolean thebook(String m,String w,String d) {
 		

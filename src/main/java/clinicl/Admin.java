@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Admin {
 
-	static protected ArrayList<String> users=new ArrayList<>();
+	protected static  ArrayList<String> users=new ArrayList<>();
 	static ArrayList<String> password=new ArrayList<>();
 	static ArrayList<String> service=new ArrayList<>();
 	static ArrayList<String> price=new ArrayList<>();
@@ -34,27 +34,6 @@ public class Admin {
 	}
 	
 	
-	
-	
-	public void setUsername(String username) {
-		return;
-	
-	}
-
-	public void setPasword(String password) {
-		return;
-		
-	}
-	
-	public void setService(String service) {
-		return;
-		
-	}
-	
-	public void setPrice(String price) {
-		return;
-		
-	}
 	
 	public Boolean getlogin() {
 		return login;

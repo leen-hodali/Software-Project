@@ -4,10 +4,10 @@ clinicf\addsteps.class
 clinicf\visitwedsteps.class
 clinicf\reportsteps.class
 clinicf\logoutsteps.class
+clinicf\AcceptanceTest.class
 clinicf\searchsteps.class
 clinicf\info.class
 clinicf\bookAp.class
-clinicf\A.class
 clinicf\loginsteps.class
 clinicf\usersteps.class
 clinicf\billingsteps.class
